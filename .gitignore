@@ -1,3 +1,14 @@
 *.jl.cov
 *.jl.*.cov
 *.jl.mem
+*~
+\#*
+.juliahistory
+.idea/
+target/
+project/
+*.class
+*.jar
+*.iml
+*.log
+nohup.out
