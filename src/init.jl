@@ -5,7 +5,7 @@ function init()
     classpath = @static is_windows() ? "$envcp;$wrapper_assembly" : "$envcp:$wrapper_assembly"
     try
         # prevent exceptions in REPL on code reloading
-        JavaCall.init(["-ea", "-Xmx1024M", "-Djava.class.path=$classpath"])
+        JavaCall.init(["-ea", "-Xmx4048M", "-Djava.class.path=$classpath"])
     end
 end
 
